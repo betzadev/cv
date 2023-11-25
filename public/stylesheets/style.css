@@ -15,7 +15,8 @@
 }
 
 body{
-  background-image: url(/images/bg4.jpg);
+  background-color: #8EC5FC;
+  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 }
 
 .main-content{
@@ -63,6 +64,11 @@ body{
   border-radius: 50%;
   border: 8px solid white;
   
+}
+
+.profile img:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .name{
